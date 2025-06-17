@@ -1,0 +1,67 @@
+1. Estrutura da Planilha (Arquitetura)
+
+Criaremos as seguintes abas:
+
+    Menu Principal
+
+        Navegação por botões (usando formas ou VBA)
+
+        Links rápidos para as abas e sites úteis da Receita Federal
+
+    Dados Pessoais
+
+        Nome, CPF, endereço, profissão, e-mail, telefone etc.
+
+        Validações de CPF e campos obrigatórios
+
+    Rendimentos Tributáveis
+
+        Nome da fonte pagadora, CNPJ, valor bruto, IR retido
+
+        Validação de CNPJ e soma automática
+
+    Rendimentos Isentos
+
+        Ex: poupança, indenizações, lucros, etc.
+
+    Bens e Direitos
+
+        Tipo de bem, valor, data de aquisição, localização
+
+        Validação para não deixar campos em branco
+
+    Dívidas e Ônus Reais
+
+        Tipo de dívida, instituição, valor, data de contratação
+
+    Pagamentos Efetuados / Dedutíveis
+
+        Plano de saúde, escola, previdência, etc.
+
+        Campo para CPF/CNPJ do beneficiário com validação
+
+    Dependentes
+
+        Nome, CPF, grau de parentesco, data de nascimento
+
+        Validação do CPF e da idade
+
+    Resumo Geral / Exportação
+
+        Totais por categoria
+
+        Botão para gerar relatório em PDF (opcional com VBA)
+
+🧩 2. Funcionalidades a Implementar
+
+    Validação de dados (CPF, CNPJ, campos obrigatórios)
+
+    Fórmulas para somatórios automáticos
+
+    Condicional para destacar inconsistências
+
+    Proteção das planilhas (impedir alteração acidental)
+
+    Botões com macro simples para navegação entre abas
+
+    Links úteis (ex: Receita Federal)
